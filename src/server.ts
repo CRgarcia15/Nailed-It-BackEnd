@@ -1,13 +1,13 @@
 //DEPENDENCIES
-const express = require("express");
-const cors = require("cors");
+import express, { json } from "express";
+import cors from "cors";
 
 //CONFIGURATIONS
 require("dotenv").config();
 const app = express();
 
 //MIDDLEWARE
-app.use(express.json());
+app.use(json());
 app.use(cors());
 
 //ROUTES
