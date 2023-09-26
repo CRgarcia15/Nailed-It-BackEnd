@@ -1,5 +1,5 @@
 // DEPENDENCIES
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 // SCHEMA
 const projectSchema = new mongoose.Schema({
